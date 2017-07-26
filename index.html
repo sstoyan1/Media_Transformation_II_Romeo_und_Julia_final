@@ -134,7 +134,6 @@
 		}
 
 		function showNewGame() {
-			document.querySelector("#romeo").setAttribute("visible", false);
 			document.querySelector("#julia").setAttribute("visible", false);
 			document.querySelector("#bitch").setAttribute("visible", false);
 			document.querySelector("#Catfish").setAttribute("visible", false);
@@ -355,7 +354,6 @@
 		function leaveRoom() {
 			var activeImg = document.querySelector("#suggestion").getAttribute('src').slice(-6);
 			var activeJulia = activeImg.slice(0, -4);
-			document.querySelector("#romeo").setAttribute('visible', true);
 			document.querySelector('#camera').emit('leaveRoom');
 			switch (activeJulia) {
 				case "03":
