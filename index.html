@@ -133,18 +133,11 @@
 			setTimeout(function() { goToSwipe(); }, 4000);
 		}
 
-		function fadeToBlack() {
-			document.querySelector("#sky").setAttribute('color', "black");
-			document.querySelector("#light1").setAttribute("visible", false);
-			document.querySelector("#light2").setAttribute("visible", false);
+		function showNewGame() {
 			document.querySelector("#romeo").setAttribute("visible", false);
 			document.querySelector("#julia").setAttribute("visible", false);
 			document.querySelector("#bitch").setAttribute("visible", false);
 			document.querySelector("#catfishJulia").setAttribute("visible", false);
-			setTimeout(function() { showNewGame(); }, 2000);
-		}
-
-		function showNewGame() {
 			document.querySelector("#newGame").setAttribute("visible", true);
 			document.querySelector("#yes").setAttribute("visible", true);
 			document.querySelector("#no").setAttribute("visible", true);
@@ -346,7 +339,7 @@
 					break;
 			}
 			setTimeout(function() { closeDoor(); }, 4000);
-			setTimeout(function() { fadeToBlack(); }, 14000);
+			setTimeout(function() { showNewGame(); }, 14000);
 		}
 
 		function answerRomeo1(chosenAnswer) {
