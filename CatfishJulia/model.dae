@@ -1475,7 +1475,7 @@
         </geometry>
     </library_geometries>
     <library_materials>
-        <material id="ID8" name="textur1">
+        <material id="ID8" name="_01_-_Default1">
             <instance_effect url="#ID9" />
         </material>
         <material id="ID19" name="material">
@@ -1487,7 +1487,7 @@
         <material id="ID58" name="material_0">
             <instance_effect url="#ID57" />
         </material>
-        <material id="ID199" name="textur2">
+        <material id="ID199" name="_02_-_Default1">
             <instance_effect url="#ID200" />
         </material>
     </library_materials>
