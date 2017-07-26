@@ -137,7 +137,7 @@
 			document.querySelector("#romeo").setAttribute("visible", false);
 			document.querySelector("#julia").setAttribute("visible", false);
 			document.querySelector("#bitch").setAttribute("visible", false);
-			document.querySelector("#catfishJulia").setAttribute("visible", false);
+			document.querySelector("#Catfish").setAttribute("visible", false);
 			document.querySelector("#newGame").setAttribute("visible", true);
 			document.querySelector("#yes").setAttribute("visible", true);
 			document.querySelector("#no").setAttribute("visible", true);
@@ -315,8 +315,7 @@
 					document.querySelector("#julia").setAttribute("visible", true);
 					break;
 				default:
-					console.log(document.querySelector("#catfishJulia"))
-					document.querySelector("#catfishJulia").setAttribute("visible", true);
+					document.querySelector("#Catfish").setAttribute("visible", true);
 					break;
 			}
 
@@ -647,6 +646,7 @@
     		<a-asset-item id="catfish" src="CatfishJulia/model.dae"></a-asset-item>
     		<a-asset-item id="classicJulia" src="ClassicJulia/model.dae"></a-asset-item>
     		<a-asset-item id="Romeo_asset" src="Romeo/model.dae"></a-asset-item>
+    		<img id="CJ" src="CatfishJulia/jabba.png">
     		<img id="BitchJulia" src="BitchJulia/Bitch.png">
     		<img id="R1A_bubble" src="Bubbles/Romeo/R1A.png">
     		<img id="R1B_bubble" src="Bubbles/Romeo/R1B.png">
@@ -748,9 +748,10 @@
   		<a-image id="complete" src="Verdammt.png" position="-7.407 8.5 0.427" scale="4.954 4.954 4.954" visible="false"></a-image>
   		<a-image id="matchDisband" src="Matchfutsch.png" position="-7.407 7.811 0.427" width="6" height="4" visible="false"></a-image>
   		<a-image id="bitch" src="#BitchJulia" position="-8.021 5.68 -21.398" height="7.05376" width="1.69952" visible="false"></a-image>
-  		<a-collada-model id="catfishJulia" src="#catfish" scale="120 120 120" position="-7.916 1.986 -19.012" visible="false"></a-collada-model>
+  		<a-image id="Catfish" src="#CJ" position="-8.021 5.68 -21.398" height="5.69" width="10" visible="false"></a-image>
+  		<!-- <a-collada-model id="catfishJulia" src="#catfish" scale="120 120 120" position="-7.916 1.986 -19.012" visible="false"></a-collada-model> -->
   		<a-collada-model id="julia" src="#classicJulia" scale="3.515 3.515 3.515" position="-7.916 2.159 -20.227" rotation = "0 17 0" visible="false"></a-collada-model>
-  		<a-collada-model id="romeo" src="#Romeo_asset" scale="4.295 4.295 4.295" position="-8.060 1.986 -8.333" rotation = "0 167 0" visible="false"></a-collada-model>
+  		<!-- <a-collada-model id="romeo" src="#Romeo_asset" scale="4.295 4.295 4.295" position="-8.060 1.986 -8.333" rotation = "0 167 0" visible="false"></a-collada-model> -->
   		<a-image id="R1A" src="Bubbles/Romeo/Box_R1A.png" width="3.14" height="1.98" position="-11.265 2.694 0.556" visible="false" onclick="answerRomeo1(this.id)"></a-image>
   		<a-image id="R1B" src="Bubbles/Romeo/Box_R1B.png" width="3.14" height="1.98" position="-7.209 2.694 0.556" visible="false" onclick="answerRomeo1(this.id)"></a-image>
   		<a-image id="R1C" src="Bubbles/Romeo/Box_R1C.png" width="3.14" height="1.98" position="-3.345 2.694 0.556" visible="false" onclick="answerRomeo1(this.id)"></a-image>
