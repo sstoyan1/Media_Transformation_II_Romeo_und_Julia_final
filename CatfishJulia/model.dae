@@ -1573,10 +1573,10 @@
     </library_effects>
     <library_images>
         <image id="ID10">
-            <init_from>model/textur1.PNG</init_from>
+            <init_from>model/textur1.png</init_from>
         </image>
         <image id="ID201">
-            <init_from>model/textur2.PNG</init_from>
+            <init_from>model/textur2.png</init_from>
         </image>
     </library_images>
     <scene>
