@@ -12,5 +12,5 @@ newmtl Material__41
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka ashsen_2.gif
-	map_Kd ashsen_2.gif
+	map_Ka ASHSEN_2.gif
+	map_Kd ASHSEN_2.gif
